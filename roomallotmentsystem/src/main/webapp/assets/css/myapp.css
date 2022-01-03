@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html {
+	height: 100%;
+}
+
+body {Required padding for .navbar-fixed-top. Remove if using
+	.navbar-static-top. Change if height of navigation changes. height:100%;
+	
+}
+
+a.active {
+	background-color: #87CEFA;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	height: 550px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #696969;
+	height: 100%;
+}
+
+.subsidenav {
+	padding-top: 20px;
+	background-color: #A9A9A9;
+	height: 100%;
+}
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #C0C0C0;
+	color: white;
+	padding: 1px;
+	height: 70px
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+a.mainsidenav:link, a.mainsidenav:visited {
+	background-color: #2F4F4F;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+a.mainsidenav:hover, a.mainsidenav.active {
+	background-color: #87CEFA;
+}
+
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+* .card-header {
+	background-color: #A9A9A9;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #696969;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar>.container-fluid .navbar-brand {
+	color: white;
+	margin-left: -15px;
+}
